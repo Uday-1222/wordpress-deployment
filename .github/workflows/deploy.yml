@@ -1,6 +1,7 @@
 name: Deploy WordPress
 
 on:
+  workflow_dispatch:  # Allows manual trigger from GitHub Actions UI
   push:
     branches:
       - main  # Triggers deployment when code is pushed to main
