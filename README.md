@@ -63,7 +63,7 @@ sudo apt install -y php-fpm php-mysql php-cli php-curl php-gd php-mbstring php-x
 
 ### **✅ Configure Nginx Virtual Host**
 ```sh
-sudo nano /etc/nginx/sites-available/wordpress
+sudo vi /etc/nginx/sites-enabled/http_wordpress.conf
 ```
 _Add the following:_
 ```nginx
